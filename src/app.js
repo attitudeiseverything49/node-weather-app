@@ -56,7 +56,7 @@ app.get('/weather',(req,res)=>
     {
         return res.send(
             {
-                error: 'you must provide address' 
+                error: 'Please provide location' 
             }
         )
     }
